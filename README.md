@@ -93,7 +93,19 @@ The core investment strategy analyzed by this script is as follows:
 * **Important Note on CAGR:** The "Approx. Annualized Return" for the User's Strategy is a simplified calculation. Due to the irregular nature and timing of the additional investments, a more precise measure of compounded annual growth rate is the **XIRR (Extended Internal Rate of Return)**. The script generates a `strategy_investments_log` list (containing dates and cash flows) which can be used with spreadsheet software (like Excel or Google Sheets using the `XIRR` function) or financial libraries in Python to calculate the XIRR.
 
 ## 🖼️ Example Output
+--- Performance Summary ---
+Period: 2015-01-02 to 2024-12-30 (9.99 years)
 
-*(You can add a screenshot of your generated plot and a snippet of the performance summary here if you wish. For example:)*
+User's Strategy (Dynamic Dip Investment):
+  Final Portfolio Value: ₹280,611,721.70
+  Total Amount Invested: ₹50,851,610.31
+  Net Profit: ₹229,760,111.39
+  Total Return on Invested Capital: 451.82%
+  Approx. Annualized Return (CAGR-like): 18.64% (Note: XIRR is more precise for irregular investments)
 
-**Performance Summary Snippet (Example):**
+Benchmark (Buy and Hold):
+  Final Portfolio Value: ₹3,120,735.71
+  Total Amount Invested: ₹1,000,000.00
+  Net Profit: ₹2,120,735.71
+  Total Return: 212.07%
+  CAGR: 12.06%
